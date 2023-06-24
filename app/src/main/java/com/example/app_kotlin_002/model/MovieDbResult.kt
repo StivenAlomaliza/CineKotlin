@@ -1,4 +1,4 @@
-package com.example.app_kotlin_002
+package com.example.app_kotlin_002.model
 
 data class MovieDbResult(
     val adult: Boolean,
@@ -26,4 +26,8 @@ data class MovieDbResult(
     val video: Boolean,
     val vote_average: Double,
     val vote_count: Int
+
+
+
+
 )
